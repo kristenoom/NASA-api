@@ -5,6 +5,7 @@ const card = document.querySelector('.card');
 const cardBody = document.querySelector('.card-body');
 const moreInfoBtn = document.querySelector('.btn');
 const modalTitle = document.querySelector('.modal-title');
+const modalBody = document.querySelector('.modal-body');
 
 fetch(baseURL + '?api_key=' + key)
     .then(response => response.json())
